@@ -163,7 +163,11 @@ namespace StarterAssets
 
         private void LateUpdate()
         {
-            CameraRotation();
+            // Only rotate camera when inventory is closed
+            if (!InventorySystem.Instance.isOpen)
+            {
+                CameraRotation();
+            }
         }
 
         private void AssignAnimationIDs()

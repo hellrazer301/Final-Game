@@ -31,11 +31,21 @@ public class InteractableObject : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && playerInRange && SelectionManager.instance.onTarget)
+        if (Input.GetKeyDown(KeyCode.F) && playerInRange && SelectionManager.instance.onTarget && SelectionManager.instance.selectedObject == gameObject)
         {
-            Debug.Log("item added to Inventory");
 
-            Destroy(gameObject);
+            if (!InventorySystem.Instance.CheckIfFull())
+            {
+                InventorySystem.Instance.AddToInventory(ItemName);
+
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.Log("inventory is full");
+            }
+
+            
         }   
     }
 
