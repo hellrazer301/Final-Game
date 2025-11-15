@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Slot
+  - Zombie
   layers:
   - Default
   - TransparentFX
