@@ -2,7 +2,7 @@
 - Project name: Final-Project
 - Unity version: Unity 2022.3.50f1
 - Active game object:
-  - Name: Frame1
+  - Name: Canvas
   - Tag: Untagged
-  - Layer: Default
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
