@@ -7,10 +7,8 @@
 \- Platform (Windows / Mac / Linux)
 
 \#\#\# How to Run  
-1\. Clone the repository  
-2\. Open the project in Unity  
-3\. Load the main scene  
-4\. Press Play or open the Build folder
+1\. Open this link
+  \-https://hellrazer301.github.io/WebGL-Tyrant/
 
 \#\# Features  
 \-Third-person over-shoulder camera  
